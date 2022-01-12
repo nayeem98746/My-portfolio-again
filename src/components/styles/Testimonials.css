@@ -3,7 +3,7 @@
 
 .testimonials{
     background-color: rgb(216, 212, 212);
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     font-family: 'Poppins', sans-serif;
     overflow: hidden;
@@ -20,6 +20,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 
@@ -54,21 +55,8 @@
     color: #fff;
 }
 
-@media screen and (max-width:900px) {
-    .testimonials h1 {
-        display: flex;
-        justify-content: center;
-        margin-top: 1rem;
-    }
-    
-    
-    .cart-container {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-    }
-    
-    
+@media (max-width:900px) {
+
     .cart {
         margin: 5px;
         text-align: center;
