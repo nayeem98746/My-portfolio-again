@@ -15,10 +15,8 @@ const Second = () => {
                     <p>Front-End Developer</p>
                     <p>React js & Nodejs Developer</p>
                     <p>UI & UX Designer</p>
-                    <p>MERN Stack Developer</p>
-                    <p>Worked for Google,Facebook,Amazon</p>
-                    <p>5 years of Developer Experience</p>
-                    <p>Good Management ,Communication</p>
+                    <p>MERN Stack Developer sabbir</p>
+                   
                 </div>
             </div>
         </section>
